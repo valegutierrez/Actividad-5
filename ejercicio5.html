@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">    <style>
+        body {
+            margin: 0;
+        }
+        @media (max-width: 480px) {
+            .title {
+                text-align: center;
+                background-color: #74bc50;
+                color: white;
+            }
+            h1{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                text-transform: uppercase;
+                position: absolute;
+                margin: 0 20% 0 20%;
+                padding: 20px;
+            }
+            .col {
+                margin: 0 20% 0 20%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .row {
+                height: 30vh;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        @media (min-width: 481px) {
+            .title {
+                text-align: center;
+                background-color: #74bc50;
+                color: white;
+            }
+            h1{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                text-transform: uppercase;
+                position: absolute;
+                left: 0;
+                right: 0;
+                padding: 20px;
+            }
+            .col {
+                float: left;
+                width: 33.33%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .row {
+                height: 200px;
+            }
+            .row-2 {
+                height: 400px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title row">
+        <h1>¡Hola!
+            <br>
+            Este es un ejercicio de grillas
+        </h1>
+    </div>
+    <div class="row-2">
+        <div class="col">
+            <img src="img.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis consequatur corrupti distinctio tempore non eos illum debitis ad! Soluta consectetur rem recusandae aperiam asperiores! Accusamus cumque reiciendis vel assumenda.</p>
+        </div>
+        <div class="col">
+            <img src="img.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis consequatur corrupti distinctio tempore non eos illum debitis ad! Soluta consectetur rem recusandae aperiam asperiores! Accusamus cumque reiciendis vel assumenda.</p>
+        </div>
+        <div class="col">
+            <img src="img.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis consequatur corrupti distinctio tempore non eos illum debitis ad! Soluta consectetur rem recusandae aperiam asperiores! Accusamus cumque reiciendis vel assumenda.</p>
+        </div>
+    </div>
+</body>
+</html>
